@@ -50,35 +50,49 @@ export default function Login() {
   );
 }
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 20,
-    backgroundColor: '#fff',
+    padding: 25,
+    backgroundColor: '#070707',
   },
+
   title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 24,
+    color: '#f4f2ee',
+    fontSize: 32,
+    fontWeight: '900',
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    marginBottom: 30,
   },
+
   input: {
     width: '100%',
-    height: 50,
+    maxWidth: 420,
+    height: 52,
+    backgroundColor: '#151515',
     borderWidth: 1,
-    borderColor: '#ccc',
-    borderRadius: 8,
-    paddingHorizontal: 16,
+    borderColor: '#333',
+    borderRadius: 0,
+    paddingHorizontal: 15,
     marginBottom: 16,
+    color: '#f4f2ee',
   },
+
   buttonContainer: {
     width: '100%',
-    marginTop: 8,
-    marginBottom: 16,
+    maxWidth: 420,
+    marginTop: 5,
+    marginBottom: 15,
   },
+
   link: {
-    color: '#007AFF',
-    marginTop: 16,
+    color: '#c51624',
+    marginTop: 15,
+    fontSize: 14,
+    fontWeight: '700',
   },
 });

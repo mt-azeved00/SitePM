@@ -16,16 +16,23 @@ export default function Feed() {
   );
 }
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#fff',
-    gap: 20,
+    padding: 25,
+    backgroundColor: '#070707',
+    gap: 25,
   },
+
   title: {
-    fontSize: 20,
-    fontWeight: 'bold',
+    color: '#f4f2ee',
+    fontSize: 28,
+    fontWeight: '900',
+    letterSpacing: 1,
+    textTransform: 'uppercase',
+    textAlign: 'center',
   },
 });
